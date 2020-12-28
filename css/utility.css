@@ -1,0 +1,18 @@
+/* text */
+.text-larger{
+    font-size: larger;
+}
+
+.text-bolder{
+    font-weight: bolder;
+}
+/* flex */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* margin */
+
+/* padding */
