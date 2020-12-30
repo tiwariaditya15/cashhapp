@@ -90,8 +90,9 @@ const startCalculate = () => {
         retText.innerText = `Received cash ${cash} and bill amount ${bill} are equal. So no need of returning change.`;
         return;
       }
-        retText.innerText = "";
+        
         ret = cash - bill;
+        retText.innerText = `You gotta return ${ret}₹.`;
         calculteReturn();
       
       
